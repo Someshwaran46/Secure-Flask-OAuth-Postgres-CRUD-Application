@@ -66,9 +66,9 @@ def login_required(f):
 @crud_bp.route("/dashboard")
 @login_required
 def dashboard():
-    """Renders the full UI (index1.html) with user info injected."""
+    """Renders the full UI (index.html) with user info injected."""
     user = session["user"]
-    return render_template("index1.html", user=user)
+    return render_template("index.html", user=user)
 
 
 # ════════════════════════════════════════════════════════════════════════════
