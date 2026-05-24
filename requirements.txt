@@ -1,0 +1,5 @@
+Flask
+Authlib
+Flask-Session
+psycopg2-binary
+python-dotenv
